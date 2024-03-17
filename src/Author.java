@@ -1,4 +1,4 @@
-public class Author {
+public class Author extends BaseAbstract {
     private String name_author = "Antek";
     private int year_author;
 
@@ -11,7 +11,7 @@ public class Author {
     }
 
     public int getYear_author() {
-        return year_author;
+        return this.year_author;
     }
 
     public void setYear_author(int year_author) {

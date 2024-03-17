@@ -2,10 +2,12 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+
         Film movie = new Film();
         movie.name_movie = "Avatar";
         movie.year_movie = 2018;
         movie.setName_author("Andrzej");
+        movie.setSurName("Kowalski");
         movie.setYear_author(2000);
         movie.info();
 
